@@ -48,6 +48,7 @@ jobs:
     
       - name: Install Dependencies
         run: npm install
+        
       - name: Run Code coverage
         run: npm run code-coverage
 
